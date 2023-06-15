@@ -1,5 +1,5 @@
 {
-    "name": "lunvr/lundash-shared-models",
+    "name": "jyllson/sharedmodels",
     "type": "library",
     "description": "Shared models and controllers between Lundash microservices",
     "homepage": "https://dash.lunvrtech.io",
@@ -14,5 +14,8 @@
         "psr-4": {
             "Lundash\\SharedModels\\": "src"
         }
+    },
+    "require": {
+        "php": ">=7.4"
     }
 }
