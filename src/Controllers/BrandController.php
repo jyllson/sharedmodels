@@ -9,7 +9,7 @@ use App\Models\Log;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
 
-class BrandController extends App\Http\Controllers\Controller
+class BrandController extends \App\Http\Controllers\Controller
 {
     public function __construct()
     {
