@@ -11,6 +11,8 @@ class BrandTheme extends Model
 {
     use HasFactory, SoftDeletes;
 
+	protected $table = 'brand_themes';
+
     protected $fillable = [
         'name',
         'brand_id',
