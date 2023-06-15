@@ -17,5 +17,6 @@
     },
     "require": {
         "php": ">=7.4"
-    }
+    },
+    "license": "Proprietary software"
 }
