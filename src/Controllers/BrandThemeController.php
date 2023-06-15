@@ -3,7 +3,7 @@
 namespace Lundash\SharedModels\Controllers;
 
 use App\Http\Requests\StoreBrandThemeRequest;
-use App\Models\BrandTheme;
+use Lundash\SharedModels\Models\BrandTheme;
 use Illuminate\Http\Request;
 
 class BrandThemeController extends Controller

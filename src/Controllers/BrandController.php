@@ -3,7 +3,7 @@
 namespace Lundash\SharedModels\Controllers;
 
 use App\Http\Requests\StoreBrandRequest;
-use App\Models\Brand;
+use Lundash\SharedModels\Models\Brand;
 use Illuminate\Http\Request;
 use App\Models\Log;
 use Illuminate\Contracts\Database\Eloquent\Builder;
