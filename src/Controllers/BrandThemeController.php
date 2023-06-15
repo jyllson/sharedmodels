@@ -6,7 +6,7 @@ use App\Http\Requests\StoreBrandThemeRequest;
 use Lundash\SharedModels\Models\BrandTheme;
 use Illuminate\Http\Request;
 
-class BrandThemeController extends Controller
+class BrandThemeController extends App\Http\Controllers\Controller
 {
     /**
      * Display a listing of the resource.
