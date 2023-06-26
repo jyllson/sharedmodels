@@ -11,10 +11,10 @@ use Illuminate\Support\Facades\Auth;
 
 class BrandController extends \App\Http\Controllers\Controller
 {
-    public function __construct()
-    {
-        $this->authorizeResource(Brand::class, 'brand');
-    }
+    //public function __construct()
+    //{
+    //    $this->authorizeResource(Brand::class, 'brand');
+    //}
     /**
      * Display a listing of the resource.
      * @group Brands
