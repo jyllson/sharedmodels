@@ -17,6 +17,7 @@ class BrandTheme extends Model
         'name',
         'brand_id',
         'logo',
+        'favicon',
         'font',
         'font2',
         'font3',

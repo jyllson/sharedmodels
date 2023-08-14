@@ -24,6 +24,7 @@ class BrandThemeController extends \App\Http\Controllers\Controller
      * @bodyParam name string required Name of the Brand Theme. Example: Casinozer Theme 1
      * @bodyParam brand_id int required ID of the Brand of this Theme. Example: 1
      * @bodyParam logo string optional Brand Theme Logo. Example: logo.png
+     * @bodyParam favicon string optional Brand Theme Favicon. Example: favicon.ico
      * @bodyParam font string optional Font name slug. Example: roboto
      * @bodyParam font2 string optional Font name slug. No-example
      * @bodyParam font3 string optional Font name slug. No-example
@@ -76,6 +77,7 @@ class BrandThemeController extends \App\Http\Controllers\Controller
      * @group Brand Themes
      * @bodyParam name string optional Name of the Brand Theme. Example: Casinozer Theme 1
      * @bodyParam logo string optional Brand Theme Logo. Example: logo.png
+     * @bodyParam favicon string optional Brand Theme Favicon. Example: favicon.ico
      * @bodyParam font string optional Font name slug. Example: roboto
      * @bodyParam font2 string optional Font name slug. No-example
      * @bodyParam font3 string optional Font name slug. No-example
